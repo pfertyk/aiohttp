@@ -41,7 +41,38 @@
           </ul>
         </section>
         <section>
-          <h2>Routing methods</h2>
+          <h2>Client</h2>
+        </section>
+        <section data-markdown="md/client.md"></section>
+        <section>
+          <h2>Session</h2>
+          <ul>
+            <li>get('http://api.com/events/')</li>
+            <li>post('http://api.com/events/', data=b'data')</li>
+            <li>put('http://api.com/events/1/', data=b'data')</li>
+            <li>delete('http://api.com/events/1/')</li>
+            <li>head('http://api.com/events/')</li>
+            <li>options('http://api.com/events/')</li>
+            <li>patch('http://api.com/events/1/', data=b'data')</li>
+          </ul>
+        </section>
+        <section data-markdown="md/url_params.md"></section>
+        <section>
+          <h2>Response</h2>
+          <ul>
+            <li>text()</li>
+            <li>text(encoding='windows-1251')</li>
+            <li>read()</li>
+            <li>json()</li>
+            <li>content.read(10)</li>
+          </ul>
+        </section>
+        <section data-markdown="md/headers.md"></section>
+        <section data-markdown="md/cookies.md"></section>
+        <section>
+          <h2>Server</h2>
+        </section>
+        <section>
           <ul>
             <li>add_get</li>
             <li>add_post</li>
@@ -50,7 +81,12 @@
           </ul>
         </section>
         <section data-markdown="md/routes.md"></section>
+        <section>
+          <h2>Questions?</h2>
+        </section>
         <!--
+          returning response
+          returning errors
           client (with as )
           simple program
           running
@@ -60,6 +96,7 @@
           class based views
           autoreloading
           websockets (normal and socketio)
+          middlewares?
         -->
 			</div>
 		</div>

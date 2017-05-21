@@ -14,3 +14,7 @@ def app_factory(args=()):
     )
     return app
 ```
+
+```bash
+python -m aiohttp.web -P 8080 main:app_factory
+```

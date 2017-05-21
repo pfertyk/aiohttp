@@ -83,6 +83,16 @@
             <li>add_delete</li>
           </ul>
         </section>
+        <section data-markdown="md/websocket.md"></section>
+        <section>
+          <h2>WebSockets</h2>
+          <ul>
+            <li class="fragment">reading from the WebSocket must only be done inside the request handler task</li>
+            <li class="fragment">aiohttp.web creates an implicit asyncio.Task for handling every incoming request</li>
+            <li class="fragment">aiohttp.web only supports WebSockets without downgrading to Long Polling (SockJS)</li>
+            <li class="fragment">parallel reads from a WebSocket are forbidden</li>
+          </ul>
+        </section>
         <section data-markdown="md/socketio.md"></section>
         <section>
           <h2>Questions?</h2>
@@ -94,7 +104,7 @@
           testing!!!
           class based views
           autoreloading
-          websockets (normal and socketio)
+          low level server
           middlewares?
         -->
 			</div>

@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>aiohttp</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -24,8 +24,43 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+        <section>
+          <h2>aiohttp</h2>
+          <p>Paweł Fertyk</p>
+          <br/>
+          <p>aiohttp.pfertyk.me</p>
+        </section>
+        <section>
+          <h2>What is aiohttp?</h2>
+          <ul>
+            <li class="fragment">HTTP client/server for asyncio (PEP 3156)</li>
+            <li class="fragment">requests-like HTTP client</li>
+            <li class="fragment">high level HTTP server interface meant for building web applications</li>
+            <li class="fragment">low level HTTP server for web servers that don't need the conveniences of the high level server</li>
+            <li class="fragment">supports for both Server and Client WebSockets out-of-the-box</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Routing methods</h2>
+          <ul>
+            <li>add_get</li>
+            <li>add_post</li>
+            <li>add_patch</li>
+            <li>add_delete</li>
+          </ul>
+        </section>
+        <section data-markdown="md/routes.md"></section>
+        <!--
+          client (with as )
+          simple program
+          running
+          loop handlers
+          url params
+          testing!!!
+          class based views
+          autoreloading
+          websockets (normal and socketio)
+        -->
 			</div>
 		</div>
 

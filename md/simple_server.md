@@ -1,3 +1,4 @@
+## Simple application
 ```python
 from aiohttp import web
 

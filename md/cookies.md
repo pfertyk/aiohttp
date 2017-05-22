@@ -1,3 +1,4 @@
+## Cookies
 ```python
 url = 'http://api.com/cookies'
 cookies = {'cookies_are': 'working'}

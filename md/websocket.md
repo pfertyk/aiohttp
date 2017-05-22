@@ -1,3 +1,4 @@
+## WebSocketResponse
 ```python
 async def websocket_handler(request):
     ws = web.WebSocketResponse()

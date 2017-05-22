@@ -1,3 +1,4 @@
+## Getting a response
 ```python
 import aiohttp
 
